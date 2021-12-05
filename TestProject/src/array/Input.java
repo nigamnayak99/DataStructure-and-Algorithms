@@ -5,7 +5,7 @@ public class Input {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		int[] arr = {2,9,1,0,0,0,12,18,0,21,24,5,0};
+//		int[] arr = {2,9,1,0,0,0,12,18,0,21,24,5,0};
 //		SecondLargest sc = new SecondLargest();
 //		System.out.println(sc.find(arr));
 		
@@ -28,11 +28,15 @@ public class Input {
 //		System.out.println(" i :"+i+" ====-------> "+ans[i]);
 //		}
 		
-		LeftRotateD d = new LeftRotateD();
-		int[] ans = d.leftRotateByD(arr, 4);
-		for(int i = 0; i < ans.length ;i++) {
-		System.out.println(" i :"+i+" ====-------> "+ans[i]);
-		}
+//		LeftRotateD d = new LeftRotateD();
+//		int[] ans = d.leftRotateByD(arr, 4);
+//		for(int i = 0; i < ans.length ;i++) {
+//		System.out.println(" i :"+i+" ====-------> "+ans[i]);
+//		}
+		
+		int[] arr = {2,9,1,0,0,0,12,18,0,21,24,5,0};
+		Leaders l = new Leaders();
+		l.find(arr);
 		
 	}
 
