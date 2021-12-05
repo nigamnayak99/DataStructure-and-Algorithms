@@ -22,11 +22,17 @@ public class Input {
 //		RemoveDuplicates rm = new RemoveDuplicates();
 //		System.out.println(rm.remove(arr));
 		
-		MoveZerosToEnd m = new MoveZerosToEnd();
-		int[] ans = m.move(arr);
+//		MoveZerosToEnd m = new MoveZerosToEnd();
+//		int[] ans = m.move(arr);
+//		for(int i = 0; i < ans.length ;i++) {
+//		System.out.println(" i :"+i+" ====-------> "+ans[i]);
+//		}
+		
+		LeftRotateD d = new LeftRotateD();
+		int[] ans = d.leftRotateByD(arr, 4);
 		for(int i = 0; i < ans.length ;i++) {
 		System.out.println(" i :"+i+" ====-------> "+ans[i]);
-	}
+		}
 		
 	}
 
