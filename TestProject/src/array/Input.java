@@ -38,6 +38,7 @@ public class Input {
 //		Leaders l = new Leaders();
 //		l.find(arr);
 		
+<<<<<<< HEAD
 //		int[] arr = {30,10,8,2};
 //		MaximumDifferenceWithOrder om = new MaximumDifferenceWithOrder();
 //		System.out.println(om.findMaxDiffWithOrd(arr));
@@ -45,6 +46,15 @@ public class Input {
 		int[] arr = {7,1,5,3,6,4};
 		BestTimeToBuyAndSell sb = new BestTimeToBuyAndSell();
 		System.out.println(sb.maxProfit(arr));
+=======
+//		int[] arr = {5,10,20,6,3,8};
+//		MaxEvenOddSubArray mx = new MaxEvenOddSubArray();
+//		System.out.println(mx.maxEvenOddSubArray(arr));
+		
+		int[] arr = {8,8,6,6,6,4,6};
+		MooresVootingMajority m = new MooresVootingMajority();
+		System.out.println(m.findMajority(arr));
+>>>>>>> branch 'master' of https://github.com/nigamnayak99/DataStructure-and-Algorithms.git
 		
 	}
 
