@@ -34,9 +34,17 @@ public class Input {
 //		System.out.println(" i :"+i+" ====-------> "+ans[i]);
 //		}
 		
-		int[] arr = {2,9,1,0,0,0,12,18,0,21,24,5,0};
-		Leaders l = new Leaders();
-		l.find(arr);
+//		int[] arr = {2,9,1,0,0,0,12,18,0,21,24,5,0};
+//		Leaders l = new Leaders();
+//		l.find(arr);
+		
+//		int[] arr = {30,10,8,2};
+//		MaximumDifferenceWithOrder om = new MaximumDifferenceWithOrder();
+//		System.out.println(om.findMaxDiffWithOrd(arr));
+		
+		int[] arr = {7,1,5,3,6,4};
+		BestTimeToBuyAndSell sb = new BestTimeToBuyAndSell();
+		System.out.println(sb.maxProfit(arr));
 		
 	}
 
