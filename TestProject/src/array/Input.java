@@ -34,9 +34,17 @@ public class Input {
 //		System.out.println(" i :"+i+" ====-------> "+ans[i]);
 //		}
 		
-		int[] arr = {2,9,1,0,0,0,12,18,0,21,24,5,0};
-		Leaders l = new Leaders();
-		l.find(arr);
+//		int[] arr = {2,9,1,0,0,0,12,18,0,21,24,5,0};
+//		Leaders l = new Leaders();
+//		l.find(arr);
+		
+//		int[] arr = {5,10,20,6,3,8};
+//		MaxEvenOddSubArray mx = new MaxEvenOddSubArray();
+//		System.out.println(mx.maxEvenOddSubArray(arr));
+		
+		int[] arr = {8,8,6,6,6,4,6};
+		MooresVootingMajority m = new MooresVootingMajority();
+		System.out.println(m.findMajority(arr));
 		
 	}
 
