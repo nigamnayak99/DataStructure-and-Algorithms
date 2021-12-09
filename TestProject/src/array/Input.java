@@ -52,9 +52,15 @@ public class Input {
 //		System.out.println(mx.maxEvenOddSubArray(arr));
 		
 
-		int[] arr = {8,8,6,6,6,4,6};
-		MooresVootingMajority m = new MooresVootingMajority();
-		System.out.println(m.findMajority(arr));
+//		int[] arr = {8,8,6,6,6,4,6};
+//		MooresVootingMajority m = new MooresVootingMajority();
+//		System.out.println(m.findMajority(arr));
+		
+		int[] arr = {1,1,0,0,0,1,1,0};
+		MinimumConsecutiveFlips mc = new MinimumConsecutiveFlips();
+		System.out.println(mc.minFlips(arr));
+		
+		
 			
 	}
 
