@@ -56,9 +56,13 @@ public class Input {
 //		MooresVootingMajority m = new MooresVootingMajority();
 //		System.out.println(m.findMajority(arr));
 		
-		int[] arr = {1,1,0,0,0,1,1,0};
-		MinimumConsecutiveFlips mc = new MinimumConsecutiveFlips();
-		System.out.println(mc.minFlips(arr));
+//		int[] arr = {1,1,0,0,0,1,1,0};
+//		MinimumConsecutiveFlips mc = new MinimumConsecutiveFlips();
+//		System.out.println(mc.minFlips(arr));
+		
+		int[] arr = {1,8,3,9,6,5,4};
+		PrefixSumWithIndex pr = new PrefixSumWithIndex();
+		System.out.println(pr.getPrefixSum(arr, 2, 6));
 		
 		
 			
