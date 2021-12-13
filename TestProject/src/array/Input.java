@@ -60,9 +60,16 @@ public class Input {
 //		MinimumConsecutiveFlips mc = new MinimumConsecutiveFlips();
 //		System.out.println(mc.minFlips(arr));
 		
-		int[] arr = {1,8,3,9,6,5,4};
-		PrefixSumWithIndex pr = new PrefixSumWithIndex();
-		System.out.println(pr.getPrefixSum(arr, 2, 6));
+//		int[] arr = {1,8,3,9,6,5,4};
+//		PrefixSumWithIndex pr = new PrefixSumWithIndex();
+//		System.out.println(pr.getPrefixSum(arr, 2, 6));
+		
+//		int[] arr = {3,4,8,-9,20,6};
+//		PrefixSum pr = new PrefixSum();
+//		HasEquilibriumPoint hs = new HasEquilibriumPoint();
+//		int[] prefixSum = pr.getPrefixSum(arr);
+//		System.out.println(hs.test(prefixSum));
+		
 		
 		
 			
