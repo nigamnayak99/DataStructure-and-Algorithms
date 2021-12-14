@@ -1,5 +1,7 @@
 package array;
 
+import java.util.ArrayList;
+
 public class Input {
 
 	public static void main(String[] args) {
@@ -74,11 +76,22 @@ public class Input {
 //		HasEquilibriumPoint hs = new HasEquilibriumPoint();
 //		System.out.println(hs.hasEquillibriumPoint(arr));
 		
-		int[] arr = {2,4,7,8,9,10};
-		WaveArray wv = new WaveArray();
-		int ans[] =  wv.wave(arr, arr.length);
-		for(int i =0; i < arr.length; i++) {
-			System.out.print(ans[i]+",");
+//		int[] arr = {2,4,7,8,9,10};
+//		WaveArray wv = new WaveArray();
+//		int ans[] =  wv.wave(arr, arr.length);
+//		for(int i =0; i < arr.length; i++) {
+//			System.out.print(ans[i]+",");
+//		}
+		
+		int[] arr = {11,42,49,96,23,20,49,26,26,18,73,2,53,59,34,99,25,2};
+		StockBuyAndSell bs = new StockBuyAndSell();
+		ArrayList<ArrayList<Integer>> ans = bs.maxProfit(arr, 18);
+		for(int i =0; i < ans.size();i++) {
+			ArrayList<Integer> sb = ans.get(i);
+			for(Integer j : sb) {
+				System.out.print(j+" ");
+			}
+			System.out.println();
 		}
 		
 		
