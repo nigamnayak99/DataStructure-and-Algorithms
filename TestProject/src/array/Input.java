@@ -70,6 +70,17 @@ public class Input {
 //		int[] prefixSum = pr.getPrefixSum(arr);
 //		System.out.println(hs.test(prefixSum));
 		
+//		int[] arr = {4,2,-2};
+//		HasEquilibriumPoint hs = new HasEquilibriumPoint();
+//		System.out.println(hs.hasEquillibriumPoint(arr));
+		
+		int[] arr = {2,4,7,8,9,10};
+		WaveArray wv = new WaveArray();
+		int ans[] =  wv.wave(arr, arr.length);
+		for(int i =0; i < arr.length; i++) {
+			System.out.print(ans[i]+",");
+		}
+		
 		
 		
 			
