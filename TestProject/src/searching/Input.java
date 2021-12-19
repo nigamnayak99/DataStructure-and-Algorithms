@@ -14,11 +14,18 @@ public class Input {
 //		LinearSearch ls = new LinearSearch();
 //		System.out.println(ls.linearSearch(arr, 0));
 		
-		int[] arr = {5,5,5};
-		FirstOccurence fs = new FirstOccurence();
-		System.out.println(fs.getFirstOccurence(arr, 0, arr.length - 1, 5) + 1);
+//		int[] arr = {5,5,5};
+//		FirstOccurence fs = new FirstOccurence();
+//		System.out.println(fs.getFirstOccurence(arr, 0, arr.length - 1, 5) + 1);
+
 		
+//		int[] arr = {1,1,1,1};
+//		CountNoOfOnes cs = new CountNoOfOnes();
+//		System.out.println(cs.countOnes(arr, arr.length));
 		
+		int[] arr = {4,4,4,4,4,4};
+		LastOccurence ls = new LastOccurence();
+		System.out.println(ls.getLastOccurence(arr, 4));
 		
 	}
 
