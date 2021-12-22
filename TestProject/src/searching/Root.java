@@ -9,26 +9,27 @@ public class Root {
 			return 1;
 		int low = 1;
 		int high = x;
+		int ans = -1;
 		while( low <= high) {
-			System.out.println("low :"+low+"high :"+high);
 			int mid = (low + high) / 2;
-			if(mid * mid > x) {
-				System.out.println(mid*mid+"Greater than "+x);
-				high = mid / 2;
+			if(mid * mid == x) {
+				ans = mid ; 
+				break;
+			}else if(mid * mid > x) {
+				if((mid - 1)* (mid - 1) < x) {
+					ans = mid - 1;
+					break;
+				}
+				high = mid - 1;
+			}else {
+				if((mid + 1) * (mid + 1) > x) {
+					ans = mid ;
+					break;
+				}
+				low = mid + 1;
 			}
-			else if(mid * mid < x){
-				System.out.println(mid*mid+"Less than "+x);
-				int s =  mid + 1;
-				if(s * s > x) {
-					return mid;
-				}else if(s * s == x) {
-					return s;
-				}else
-					mid = mid + mid / 2;
-			}else
-				return mid ;
 		}
-		return -1;
+		return ans;
 	}
 
 }
