@@ -34,9 +34,16 @@ public class Input {
 //		int l = ls.getLastOccurence(arr, 9);
 //		System.out.println(l - f);
 		
-		int x = 23;
-		Root r = new Root();
-		System.out.println(r.findSqrt(x));
+//		int x = 23;
+//		Root r = new Root();
+//		System.out.println(r.findSqrt(x));
+		
+		long[] arr = new long[1000000];
+		for(int i = 0; i < arr.length;i++) {
+			arr[i] = i-10;
+		}
+		InfiniteSizedArraySearch is = new InfiniteSizedArraySearch();
+		System.out.println(is.search(arr, 0));
 		
 	}
 
