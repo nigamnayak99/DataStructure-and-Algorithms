@@ -34,10 +34,11 @@ public class Input {
 //		int l = ls.getLastOccurence(arr, 9);
 //		System.out.println(l - f);
 		
-		int x = 23;
-		Root r = new Root();
-		System.out.println(r.findSqrt(x));
+//		int x = 23;
+//		Root r = new Root();
+//		System.out.println(r.findSqrt(x));
 		
+
 	}
 
 }
