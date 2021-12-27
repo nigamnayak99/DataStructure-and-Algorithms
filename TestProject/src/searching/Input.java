@@ -49,10 +49,22 @@ public class Input {
 //		SortedRoatatedArray sra = new SortedRoatatedArray();
 //		System.out.println(sra.search(arr, 0));
 		
-		int[] arr = {1,2,-3,4,6,5,8,7,3};
-		PeakElement pe = new PeakElement();
-		System.out.println(pe.findPeak(arr));
+//		int[] arr = {1,2,-3,4,6,5,8,7,3};
+//		PeakElement pe = new PeakElement();
+//		System.out.println(pe.findPeak(arr));
+		
+//		int[] arr= {1,2,3,4,5,5,6,67,78,90,234};
+//		TwoPointer tp = new TwoPointer();
+//		int[] ans =tp.findPairInSortedArray(arr, 80);
+//		System.out.println(ans[0]+" :"+ans[1]);
 
+		int[] arr1 = {10,20,30,40,50};
+		int[] arr2 = {5,15,25,35,45};
+		MedianOfSortedArrays md = new MedianOfSortedArrays();
+		int[] ans = md.mergeTwoSortedArrays(arr1, arr2);
+		for(int i =0; i < ans.length; i++) {
+			System.out.println(ans[i]);
+		}
 		
 
 	}
