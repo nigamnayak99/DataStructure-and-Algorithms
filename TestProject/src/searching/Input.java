@@ -64,10 +64,14 @@ public class Input {
 //		int ans = md.mergeTwoSortedArrays(arr1, arr2);
 //		System.out.println(ans);
 		
-		int[] arr1 = {10,20,30,40,50};
-		int[] arr2 = {5,15,25,35,45,55,65,75,85};
-		MedianUsingBinarySearch mbs = new MedianUsingBinarySearch();
-		System.out.println(mbs.getMedian(arr1, arr2));
+//		int[] arr1 = {10,20,30,40,50};
+//		int[] arr2 = {5,15,25,35,45,55,65,75,85};
+//		MedianUsingBinarySearch mbs = new MedianUsingBinarySearch();
+//		System.out.println(mbs.getMedian(arr1, arr2));
+		
+		int[] arr = {0,1,1};
+		FindRepeatingElementInContinuesArray f = new FindRepeatingElementInContinuesArray();
+		System.out.println(f.findRepeatingElement(arr));
 		
 
 	}
