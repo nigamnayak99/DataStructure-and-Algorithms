@@ -58,13 +58,16 @@ public class Input {
 //		int[] ans =tp.findPairInSortedArray(arr, 80);
 //		System.out.println(ans[0]+" :"+ans[1]);
 
+//		int[] arr1 = {1,2,3,4,5,6};
+//		int[] arr2 = {10,20,30,40,50};
+//		MedianOfSortedArrays md = new MedianOfSortedArrays();
+//		int ans = md.mergeTwoSortedArrays(arr1, arr2);
+//		System.out.println(ans);
+		
 		int[] arr1 = {10,20,30,40,50};
-		int[] arr2 = {5,15,25,35,45};
-		MedianOfSortedArrays md = new MedianOfSortedArrays();
-		int[] ans = md.mergeTwoSortedArrays(arr1, arr2);
-		for(int i =0; i < ans.length; i++) {
-			System.out.println(ans[i]);
-		}
+		int[] arr2 = {5,15,25,35,45,55,65,75,85};
+		MedianUsingBinarySearch mbs = new MedianUsingBinarySearch();
+		System.out.println(mbs.getMedian(arr1, arr2));
 		
 
 	}

@@ -2,32 +2,44 @@ package searching;
 
 public class MedianOfSortedArrays {
 	
-	public int[] mergeTwoSortedArrays(int[] arr1, int[] arr2) {
-		int n1 = arr1.length;
-		int n2 = arr2.length;
-		int n3 = n1 + n2;
-		int[] ans = new int[n3];
+	public int mergeTwoSortedArrays(int[] arr1, int[] arr2) {
+		int m = arr1.length;
+		int n = arr2.length;
+		int l = m + n ;
+		int[] ans = new int[l];
 		int i =0;
-		int a1 = 0;
-		int a2 = 0;
-		while(a1 < n1 && a2 < n2) {
-			if(arr1[a1] < arr2[a2]) {
-				ans[i] = arr1[a1];
+		int j = 0;
+		int k = 0;
+		while(i < m && j < n) {
+			if(arr1[i] <= arr2[j]) {
+				ans[k] = arr1[i];
+				i++;
+				k++;
 			}else {
-				ans[i] = arr2[a2];
+				ans[k] = arr2[j];
+				j++;
+				k++;
 			}
 		}
-		while(a1 < n1 ) {
-			ans[i] = arr1[a1];
-			a1++;
-			i++;
+		while(i < m) {
+			ans[k++] = arr1[i++];
 		}
-		while(a2 < n2) {
-			ans[i] = arr2[a2];
-			a2++;
-			i++;
+		while(j < n) {
+			ans[k++] = arr2[j++];
 		}
-		return ans;
+		if( l % 2 == 0) {
+			int t1 = l / 2;
+			int t2 = (l / 2) + 1;
+			return (ans[t1]+ans[t2]) / 2;
+		}
+		return ans[l / 2];
+	}
+
+	private void printArray(int[] ans) {
+		// TODO Auto-generated method stub
+		for(int i =0; i < ans.length; i++) {
+			System.out.print(ans[i]+" ");
+		}
 	}
 
 }
