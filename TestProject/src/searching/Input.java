@@ -38,12 +38,16 @@ public class Input {
 //		Root r = new Root();
 //		System.out.println(r.findSqrt(x));
 		
-		long[] arr = new long[1000000];
-		for(int i = 0; i < arr.length;i++) {
-			arr[i] = i-10;
-		}
-		InfiniteSizedArraySearch is = new InfiniteSizedArraySearch();
-		System.out.println(is.search(arr, 0));
+//		long[] arr = new long[1000000];
+//		for(int i = 0; i < arr.length;i++) {
+//			arr[i] = i-10;
+//		}
+//		InfiniteSizedArraySearch is = new InfiniteSizedArraySearch();
+//		System.out.println(is.search(arr, 0));
+		
+		int[] arr = {100,10,20,30,40,50,60,70,80,90};
+		SortedRotatedArray sra = new SortedRotatedArray();
+		System.out.println(sra.search(arr, 10));
 		
 	}
 
