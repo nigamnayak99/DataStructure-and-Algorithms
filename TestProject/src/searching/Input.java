@@ -37,7 +37,7 @@ public class Input {
 //		int x = 23;
 //		Root r = new Root();
 //		System.out.println(r.findSqrt(x));
-		
+
 //		long[] arr = new long[1000000];
 //		for(int i = 0; i < arr.length;i++) {
 //			arr[i] = i-10;
@@ -45,10 +45,48 @@ public class Input {
 //		InfiniteSizedArraySearch is = new InfiniteSizedArraySearch();
 //		System.out.println(is.search(arr, 0));
 		
-		int[] arr = {100,10,20,30,40,50,60,70,80,90};
-		SortedRotatedArray sra = new SortedRotatedArray();
-		System.out.println(sra.search(arr, 10));
+
+//		long[] arr = new long[1000000];
+//		for(int i = 0; i < arr.length;i++) {
+//			arr[i] = i-10;
+//		}
+//		InfiniteSizedArraySearch is = new InfiniteSizedArraySearch();
+//		System.out.println(is.search(arr, 0));
 		
+//		int[] arr = {100,10,20,30,40,50,60,70,80,90};
+//		SortedRotatedArray sra = new SortedRotatedArray();
+//		System.out.println(sra.search(arr, 10));
+
+//		int[] arr = {5,6,7,8,9,10,11,12,0,1,2,3,4};
+//		SortedRoatatedArray sra = new SortedRoatatedArray();
+//		System.out.println(sra.search(arr, 0));
+
+		
+//		int[] arr = {1,2,-3,4,6,5,8,7,3};
+//		PeakElement pe = new PeakElement();
+//		System.out.println(pe.findPeak(arr));
+		
+//		int[] arr= {1,2,3,4,5,5,6,67,78,90,234};
+//		TwoPointer tp = new TwoPointer();
+//		int[] ans =tp.findPairInSortedArray(arr, 80);
+//		System.out.println(ans[0]+" :"+ans[1]);
+
+//		int[] arr1 = {1,2,3,4,5,6};
+//		int[] arr2 = {10,20,30,40,50};
+//		MedianOfSortedArrays md = new MedianOfSortedArrays();
+//		int ans = md.mergeTwoSortedArrays(arr1, arr2);
+//		System.out.println(ans);
+		
+//		int[] arr1 = {10,20,30,40,50};
+//		int[] arr2 = {5,15,25,35,45,55,65,75,85};
+//		MedianUsingBinarySearch mbs = new MedianUsingBinarySearch();
+//		System.out.println(mbs.getMedian(arr1, arr2));
+		
+//		int[] arr = {0,1,1};
+//		FindRepeatingElementInContinuesArray f = new FindRepeatingElementInContinuesArray();
+//		System.out.println(f.findRepeatingElement(arr));
+		
+
 	}
 
 }
