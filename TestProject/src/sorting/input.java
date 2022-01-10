@@ -13,9 +13,16 @@ public class input {
 //			System.out.println(ans[i]);
 //		}
 		
-		SelectionSort sc = new SelectionSort();
-		int arr[] = {};
-		int[] ans = sc.sort(arr);
+//		SelectionSort sc = new SelectionSort();
+//		int arr[] = {};
+//		int[] ans = sc.sort(arr);
+//		for(int i = 0 ; i < ans.length; i++) {
+//			System.out.println(ans[i]);
+//		}
+		
+		InsertionSort is = new InsertionSort();
+		int arr[] = {2,3,5,90,11,23,18};
+		int ans[] = is.sort(arr);
 		for(int i = 0 ; i < ans.length; i++) {
 			System.out.println(ans[i]);
 		}
