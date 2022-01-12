@@ -2,6 +2,7 @@ package sorting;
 
 public class InsertionSort {
 	
+	//My Intuitive approach
 	public int[] sort(int arr[]) {
 		int n = arr.length;
 		for(int i = 1 ; i < n ; i++) {
@@ -28,6 +29,16 @@ public class InsertionSort {
 				arr[i] = temp;
 			}
 		}
-	}	
+	}
+	
+	
+	//Optimized approach
+	//adds element to sorted part while traversing 
+//	public int[] insertionSort(int arr[]) {
+////		int n = arr.length;
+////		for(int i = 0;i < length; i++) {
+////			
+////		}
+//	}
 
 }
