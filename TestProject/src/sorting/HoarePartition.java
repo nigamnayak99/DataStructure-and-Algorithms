@@ -2,6 +2,7 @@ package sorting;
 
 public class HoarePartition {
 	
+	//we have to return position of last element of smaller elements window.
 	int hPartition(int[] arr, int l ,int h) {
 		int i = l - 1;
 		int j = h + 1;

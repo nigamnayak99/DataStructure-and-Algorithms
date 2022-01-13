@@ -56,6 +56,13 @@ public class input {
 //		HoarePartition hp = new HoarePartition();
 //		int ans = hp.hPartition(arr, 0, arr.length - 1);
 //		System.out.println(ans);
+		
+		
+		int arr[] = {10,80,30,90,40,50,70};
+		LomutoPartiton lp = new LomutoPartiton();
+		int ans = lp.lPartition(arr, 0, arr.length - 1);
+		System.out.println(ans);
+		
 	}
 
 }
