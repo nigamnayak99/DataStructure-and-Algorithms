@@ -58,10 +58,16 @@ public class input {
 //		System.out.println(ans);
 		
 		
-		int arr[] = {10,80,30,90,40,50,70};
-		LomutoPartiton lp = new LomutoPartiton();
-		int ans = lp.lPartition(arr, 0, arr.length - 1);
+//		int arr[] = {10,80,30,90,40,50,70};
+//		LomutoPartiton lp = new LomutoPartiton();
+//		int ans = lp.lPartition(arr, 0, arr.length - 1);
+//		System.out.println(ans);
+		
+		int arr[] = {3,8,6,12,10,7};
+		NaivePartition nv = new NaivePartition();
+		int ans = nv.nPartition(arr, 0, arr.length - 1, 5);
 		System.out.println(ans);
+		
 		
 	}
 
