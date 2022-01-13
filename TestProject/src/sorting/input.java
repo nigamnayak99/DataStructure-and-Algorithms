@@ -41,11 +41,15 @@ public class input {
 //		int b[] = {5,10,10,15,30};
 //		fi.findIntersection(a, b);
 		
-		FindUnionOFTwoSortedArrays fu = new FindUnionOFTwoSortedArrays();
-		int a[] = {3,5,8,8,8,10,12};
-		int b[] = {2,8,8,9,10,15};
-		fu.findUnion(a, b);
-
+//		FindUnionOFTwoSortedArrays fu = new FindUnionOFTwoSortedArrays();
+//		int a[] = {3,5,8,8,8,10,12};
+//		int b[] = {2,8,8,9,10,15};
+//		fu.findUnion(a, b);
+		
+		CountInversionUsingMergeSort ci = new CountInversionUsingMergeSort();
+		int arr[] = {2,5,8,11,3,6,9,13};
+		int ans = ci.count(arr, 0, arr.length - 1);
+		System.out.println(ans);
 	}
 
 }
