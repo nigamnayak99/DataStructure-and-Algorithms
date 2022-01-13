@@ -36,10 +36,15 @@ public class input {
 //			System.out.println(ans[i]);
 //		}
 		
-		FindIntersectionOfTwoSortedArrays fi = new FindIntersectionOfTwoSortedArrays();
-		int a[] = {3,5,10,10,10,10,15,15,20};
-		int b[] = {5,10,10,15,30};
-		fi.findIntersection(a, b);
+//		FindIntersectionOfTwoSortedArrays fi = new FindIntersectionOfTwoSortedArrays();
+//		int a[] = {3,5,10,10,10,10,15,15,20};
+//		int b[] = {5,10,10,15,30};
+//		fi.findIntersection(a, b);
+		
+		FindUnionOFTwoSortedArrays fu = new FindUnionOFTwoSortedArrays();
+		int a[] = {3,5,8,8,8,10,12};
+		int b[] = {2,8,8,9,10,15};
+		fu.findUnion(a, b);
 
 	}
 
