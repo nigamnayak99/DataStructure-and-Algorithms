@@ -13,11 +13,6 @@ public class LomutoPartiton {
 			}
 		}
 		swap(arr,h,i+1);
-		
-		
-		for(int k = l; k <= h;k++) {
-			System.out.println(arr[k]);
-		}
 		return i+1;
 	}
 	

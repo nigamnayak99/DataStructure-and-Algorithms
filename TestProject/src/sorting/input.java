@@ -63,10 +63,17 @@ public class input {
 //		int ans = lp.lPartition(arr, 0, arr.length - 1);
 //		System.out.println(ans);
 		
-		int arr[] = {3,8,6,12,10,7};
-		NaivePartition nv = new NaivePartition();
-		int ans = nv.nPartition(arr, 0, arr.length - 1, 5);
-		System.out.println(ans);
+//		int arr[] = {3,8,6,12,10,7};
+//		NaivePartition nv = new NaivePartition();
+//		int ans = nv.nPartition(arr, 0, arr.length - 1, 5);
+//		System.out.println(ans);
+		
+		int arr[] = {5,3,8,4,2,7,1,10};
+		QuickSortUsingLomutoPartition qlp = new QuickSortUsingLomutoPartition();
+		int[] ans = qlp.sort(arr, 0, arr.length-1);
+		for(int i =0; i < arr.length; i++) {
+			System.out.println(ans[i]);
+		}
 		
 		
 	}
