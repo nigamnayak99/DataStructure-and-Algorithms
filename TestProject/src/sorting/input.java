@@ -68,9 +68,16 @@ public class input {
 //		int ans = nv.nPartition(arr, 0, arr.length - 1, 5);
 //		System.out.println(ans);
 		
+//		int arr[] = {5,3,8,4,2,7,1,10};
+//		QuickSortUsingLomutoPartition qlp = new QuickSortUsingLomutoPartition();
+//		int[] ans = qlp.sort(arr, 0, arr.length-1);
+//		for(int i =0; i < arr.length; i++) {
+//			System.out.println(ans[i]);
+//		}
+		
 		int arr[] = {5,3,8,4,2,7,1,10};
-		QuickSortUsingLomutoPartition qlp = new QuickSortUsingLomutoPartition();
-		int[] ans = qlp.sort(arr, 0, arr.length-1);
+		QuickSortUsingHoarePartiton qhp = new QuickSortUsingHoarePartiton();
+		int[] ans = qhp.sort(arr, 0, arr.length-1);
 		for(int i =0; i < arr.length; i++) {
 			System.out.println(ans[i]);
 		}
