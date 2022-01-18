@@ -82,11 +82,13 @@ public class input {
 //			System.out.println(ans[i]);
 //		}
 		
-		int arr[] = {3,5,4,2,9};
-		KthMinimumElementUsingQuickSelect ksp = new KthMinimumElementUsingQuickSelect();
-		System.out.println(ksp.quickSelect(arr, 0, arr.length - 1, 3));
+//		int arr[] = {3,5,4,2,9};
+//		KthMinimumElementUsingQuickSelect ksp = new KthMinimumElementUsingQuickSelect();
+//		System.out.println(ksp.quickSelect(arr, 0, arr.length - 1, 3));
 		
-		
+		int arr[] = {7,3,2,4,9,12,56};
+		ChocolateDistributionProblem cd = new ChocolateDistributionProblem();
+		System.out.println(cd.findMinimum(arr, 0, arr.length - 1, 3));
 	}
 
 }
