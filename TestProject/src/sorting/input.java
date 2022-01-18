@@ -75,12 +75,16 @@ public class input {
 //			System.out.println(ans[i]);
 //		}
 		
-		int arr[] = {5,3,8,4,2,7,1,10};
-		QuickSortUsingHoarePartiton qhp = new QuickSortUsingHoarePartiton();
-		int[] ans = qhp.sort(arr, 0, arr.length-1);
-		for(int i =0; i < arr.length; i++) {
-			System.out.println(ans[i]);
-		}
+//		int arr[] = {5,3,8,4,2,7,1,10};
+//		QuickSortUsingHoarePartiton qhp = new QuickSortUsingHoarePartiton();
+//		int[] ans = qhp.sort(arr, 0, arr.length-1);
+//		for(int i =0; i < arr.length; i++) {
+//			System.out.println(ans[i]);
+//		}
+		
+		int arr[] = {3,5,4,2,9};
+		KthMinimumElementUsingQuickSelect ksp = new KthMinimumElementUsingQuickSelect();
+		System.out.println(ksp.quickSelect(arr, 0, arr.length - 1, 3));
 		
 		
 	}

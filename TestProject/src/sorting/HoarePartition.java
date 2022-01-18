@@ -10,10 +10,10 @@ public class HoarePartition {
 		while(true) {
 			do {
 				i++;
-			}while(arr[i] > pivot);
+			}while(arr[i] < pivot);
 			do {
 				j--;
-			}while(arr[j] < pivot);
+			}while(arr[j] > pivot);
 			if(i >= j)
 				return j;
 			swap(arr,i,j);
