@@ -90,11 +90,18 @@ public class input {
 //		ChocolateDistributionProblem cd = new ChocolateDistributionProblem();
 //		System.out.println(cd.findMinimum(arr, 0, arr.length - 1, 3));
 		
-		int arr[] = {15,-3,-2,18};
-		SortArrayWithTwoTypes st = new SortArrayWithTwoTypes();
-		st.sort(arr, arr.length -1);
-		for(int i =0; i < arr.length; i++) {
-				System.out.println(arr[i]);
+//		int arr[] = {15,-3,-2,18};
+//		SortArrayWithTwoTypes st = new SortArrayWithTwoTypes();
+//		st.sort(arr, arr.length -1);
+//		for(int i =0; i < arr.length; i++) {
+//				System.out.println(arr[i]);
+//		}
+		
+		int arr[] = {2,1,0,0,0,1,2,1,1,1,2};
+		ThreeWayPartioningUsingDNF twp = new ThreeWayPartioningUsingDNF();
+		int[] ans = twp.sort(arr, arr.length);
+		for(int i =0;i < ans.length; i++) {
+			System.out.println(ans[i]);
 		}
 
 	}
