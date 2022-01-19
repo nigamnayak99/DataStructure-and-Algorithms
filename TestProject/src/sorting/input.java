@@ -86,9 +86,17 @@ public class input {
 //		KthMinimumElementUsingQuickSelect ksp = new KthMinimumElementUsingQuickSelect();
 //		System.out.println(ksp.quickSelect(arr, 0, arr.length - 1, 3));
 		
-		int arr[] = {7,3,2,4,9,12,56};
-		ChocolateDistributionProblem cd = new ChocolateDistributionProblem();
-		System.out.println(cd.findMinimum(arr, 0, arr.length - 1, 3));
+//		int arr[] = {7,3,2,4,9,12,56};
+//		ChocolateDistributionProblem cd = new ChocolateDistributionProblem();
+//		System.out.println(cd.findMinimum(arr, 0, arr.length - 1, 3));
+		
+		int arr[] = {15,-3,-2,18};
+		SortArrayWithTwoTypes st = new SortArrayWithTwoTypes();
+		st.sort(arr, arr.length -1);
+		for(int i =0; i < arr.length; i++) {
+				System.out.println(arr[i]);
+		}
+
 	}
 
 }
