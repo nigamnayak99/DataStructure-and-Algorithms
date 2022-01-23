@@ -97,13 +97,16 @@ public class input {
 //				System.out.println(arr[i]);
 //		}
 		
-		int arr[] = {2,1,0,0,0,1,2,1,1,1,2};
-		ThreeWayPartioningUsingDNF twp = new ThreeWayPartioningUsingDNF();
-		int[] ans = twp.sort(arr, arr.length);
-		for(int i =0;i < ans.length; i++) {
-			System.out.println(ans[i]);
-		}
+//		int arr[] = {2,1,0,0,0,1,2,1,1,1,2};
+//		ThreeWayPartioningUsingDNF twp = new ThreeWayPartioningUsingDNF();
+//		int[] ans = twp.sort(arr, arr.length);
+//		for(int i =0;i < ans.length; i++) {
+//			System.out.println(ans[i]);
+//		}
 
+		int arr[] = {1,8};
+		MinimumDifferenceInAnArray min = new MinimumDifferenceInAnArray();
+		System.out.println(min.findMinDifference(arr, arr.length));
 	}
 
 }
