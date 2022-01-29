@@ -104,9 +104,15 @@ public class input {
 //			System.out.println(ans[i]);
 //		}
 
-		int arr[] = {1,8};
-		MinimumDifferenceInAnArray min = new MinimumDifferenceInAnArray();
-		System.out.println(min.findMinDifference(arr, arr.length));
+//		int arr[] = {1,8};
+//		MinimumDifferenceInAnArray min = new MinimumDifferenceInAnArray();
+//		System.out.println(min.findMinDifference(arr, arr.length));
+		
+//		long arr1[] = {10,12};
+//		long arr2[] = {5,18,20};
+//		MergeWithoutExtraSpace ms = new MergeWithoutExtraSpace();
+//		ms.merge(arr1, arr2, arr1.length, arr2.length);
+		
 	}
 
 }
