@@ -6,11 +6,12 @@ public class TransposeAndPrint {
 		print(arr);
 		int rows = arr.length;
 		int columns = arr[0].length;
-		for(int i = 0 ; i < rows / 2; i++) {
-			for(int j = 0; j < columns; j++) {
+		for(int i = 0 ; i < rows ; i++) {
+			for(int j = i+1; j < columns; j++) {
 				swap(arr,i,j);
 			}
 		}
+		System.out.println();
 		print(arr);
 	}
 	
@@ -20,7 +21,6 @@ public class TransposeAndPrint {
 		int ti = j;
 		int tj = i;
 		int temp = arr[ti][tj];
-		System.out.println(temp+"<---"+arr[i][j]);
 		arr[ti][tj] = arr[i][j];
 		arr[i][j] = temp;
 	}
