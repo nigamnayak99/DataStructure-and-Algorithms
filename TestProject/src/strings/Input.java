@@ -9,8 +9,11 @@ public class Input {
 //		CountCharacterRepeatedInAString csr = new CountCharacterRepeatedInAString();
 //		csr.count("geekforgeeks");
 		
-		CheckPalindromString cps = new CheckPalindromString();
-		System.out.println(cps.check("ASSD"));
+//		CheckPalindromString cps = new CheckPalindromString();
+//		System.out.println(cps.check("ASSD"));
+		
+		CheckAnagram ca = new CheckAnagram();
+		System.out.println(ca.check("aab","bab"));
 		
 	}
 	
