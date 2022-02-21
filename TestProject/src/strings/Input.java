@@ -6,8 +6,11 @@ public class Input {
 	
 	public static void main(String[] args) {
 		
-		CountCharacterRepeatedInAString csr = new CountCharacterRepeatedInAString();
-		csr.count("geekforgeeks");
+//		CountCharacterRepeatedInAString csr = new CountCharacterRepeatedInAString();
+//		csr.count("geekforgeeks");
+		
+		CheckPalindromString cps = new CheckPalindromString();
+		System.out.println(cps.check("ASSD"));
 		
 	}
 	
