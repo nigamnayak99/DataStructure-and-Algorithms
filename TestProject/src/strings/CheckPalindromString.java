@@ -6,17 +6,18 @@ public class CheckPalindromString {
 		if(str.length() < 1) {
 			return false;
 		}
-		int begin = 0;
-		int end = str.length() - 1;
-		while(begin <= end && str.charAt(begin) == str.charAt(end)) {
-			begin++;
-			end--;
+		int start = 0;
+		int end = str.length() - 1 ;
+		while(start <= end) {
+			if(str.charAt(start) == str.charAt(end)) {
+				start++;
+				end--;
+				continue;
+			}else {
+				return false;
+			}
 		}
-		if(begin >= end) {
-			return true;
-		}else {
-			return false;
-		}
+		return true;
 	}
 
 }

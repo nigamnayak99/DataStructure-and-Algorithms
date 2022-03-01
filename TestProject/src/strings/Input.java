@@ -9,11 +9,18 @@ public class Input {
 //		CountCharacterRepeatedInAString csr = new CountCharacterRepeatedInAString();
 //		csr.count("geekforgeeks");
 		
-//		CheckPalindromString cps = new CheckPalindromString();
-//		System.out.println(cps.check("ASSD"));
+//		IsSubSequence ss = new IsSubSequence();
+//		System.out.println(ss.check("", "ABC",0, 3));
 		
-		CheckAnagram ca = new CheckAnagram();
-		System.out.println(ca.check("aab","bab"));
+		
+//		CheckPalindromString cps = new CheckPalindromString();
+//		System.out.println(cps.check("A"));
+		
+//		CheckAnagram ca = new CheckAnagram();
+//		System.out.println(ca.check("aab","bab"));
+		
+		LeftMostRepeatingCharacter lems = new LeftMostRepeatingCharacter();
+		//System.out.println(lems.findLeftMost("abbcc"));
 		
 	}
 	
