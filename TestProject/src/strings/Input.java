@@ -20,10 +20,14 @@ public class Input {
 //		System.out.println(ca.check("aab","bab"));
 		
 		//Left Most Repeating Character
-		LeftMostRepeatingCharacter lems = new LeftMostRepeatingCharacter();
-		System.out.println(lems.findLeftRepeatCharNaive("abbc"));
-		System.out.println(lems.findLeftMostRepeatingCharEff1("abbc"));
-		System.out.println(lems.findLeftMostRepeatingCharMostEfficient("abbc"));
+//		LeftMostRepeatingCharacter lems = new LeftMostRepeatingCharacter();
+//		System.out.println(lems.findLeftRepeatCharNaive("abbc"));
+//		System.out.println(lems.findLeftMostRepeatingCharEff1("abbc"));
+//		System.out.println(lems.findLeftMostRepeatingCharMostEfficient("abbc"));
+		
+		//LeftMost Non Repeating Character
+		LeftMostNonRepeatingCharacter lmns = new LeftMostNonRepeatingCharacter();
+		System.out.println(lmns.findLeftMostNonRepeatingCharacter("abbcda"));
 		
 	}
 	
