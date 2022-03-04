@@ -1,38 +1,65 @@
 package strings;
 
+import java.util.Arrays;
+
 public class LeftMostRepeatingCharacter {
 	
 	
-	public static int find(String str) {
-		int arr[] = new int[256];
+	public static int findLeftRepeatCharNaive(String s) {
+		int length = s.length();
+		if(length <= 1) {			//Can't find a repeating character is size is less than 1;
+			return -1;
+		}
 		int ans = -1;
-		for(int i = 0; i < str.length();i++) {
-			if(arr[(int)str.charAt(i)] == 0) {
-				arr[(int)str.charAt(i)] = i + 1;
-			}else {
-				ans = arr[(int)str.charAt(i)] - 1;
-				break;
+		int freq[] = new int[256];
+		for(int i = 0; i < length;i++) {
+			freq[(int)s.charAt(i)] += 1;
+		}
+		for(int i = 0; i < length; i++) {
+			if(freq[s.charAt(i)] > 1) {
+				return i;
 			}
 		}
+		return -1;
+	}
+	
+	
+	public static int findLeftMostRepeatingCharEff1(String s) {
+		int length = s.length();
+		if(length <= 1) {			//Can't find a repeating character is size is less than 1;
+			return -1;
+		}
+		int ans = Integer.MAX_VALUE;
+		int freq[] = new int[256];
+		Arrays.fill(freq, -1);
+		for(int i = 0; i < length; i++) {
+			int fi = freq[s.charAt(i)];
+			if(fi == -1) 
+				freq[s.charAt(i)] = i;
+			else
+				ans = Math.min(ans, fi);
+		}
+		return (ans == Integer.MAX_VALUE) ? -1:ans;
+	}
+	
+	public static int findLeftMostRepeatingCharMostEfficient(String s) {
+		int length = s.length();
+		if(length <= 1) {			//Can't find a repeating character is size is less than 1;
+			return -1;
+		}
+		boolean visited[] = new boolean[256];
+		int ans = -1;
+		for(int i = length - 1; i >= 0; i--) {
+			if(visited[s.charAt(i)])
+				ans = i;
+			else
+				visited[s.charAt(i)] = true;
+		}
+		
 		return ans;
 	}
 	
-//	public int findLeftMost(String str) {
-//		int pos = -1;
-//		int count[] = new int[256];
-//		for(int i = 0; i < str.length();i++) {
-//			if(count[(int)str.charAt(i)] > 0) {
-//				if(pos < 0) {
-//					pos = 
-//				}
-//				//pos = pos < 0 ? count[(int)str.charAt(i)] : (pos < count[(int)str.charAt(i)] ? pos : count[(int)str.charAt(i)]);
-//			}else {
-//				count[(int)str.charAt(i)] = i+1;
-//			}
-//		}
-//		
-//		return pos;
-//	}
+
 	
 
 }

@@ -19,8 +19,11 @@ public class Input {
 //		CheckAnagram ca = new CheckAnagram();
 //		System.out.println(ca.check("aab","bab"));
 		
+		//Left Most Repeating Character
 		LeftMostRepeatingCharacter lems = new LeftMostRepeatingCharacter();
-		//System.out.println(lems.findLeftMost("abbcc"));
+		System.out.println(lems.findLeftRepeatCharNaive("abbc"));
+		System.out.println(lems.findLeftMostRepeatingCharEff1("abbc"));
+		System.out.println(lems.findLeftMostRepeatingCharMostEfficient("abbc"));
 		
 	}
 	
