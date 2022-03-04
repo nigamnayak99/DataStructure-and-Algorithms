@@ -20,12 +20,13 @@ public class LeftMostNonRepeatingCharacter {
 			else 
 				freq[s.charAt(i)] = -2;
 		}
-		for(int i = 0; i < 256; i++) {
-			if(freq[i] > 0) {
-				ans = Math.min(ans, freq[i]);
+		for(int i = 0; i < length; i++) {
+			if(freq[s.charAt(i)] > 0) {
+				ans = Math.min(ans, i);
+				break;
 			}
 		}
-		return (ans == Integer.MAX_VALUE) ? -1 : ans;
+		return (ans == Integer.MAX_VALUE) ? -1:ans;
 	}
 
 }

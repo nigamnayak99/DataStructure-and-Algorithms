@@ -26,8 +26,11 @@ public class Input {
 //		System.out.println(lems.findLeftMostRepeatingCharMostEfficient("abbc"));
 		
 		//LeftMost Non Repeating Character
-		LeftMostNonRepeatingCharacter lmns = new LeftMostNonRepeatingCharacter();
-		System.out.println(lmns.findLeftMostNonRepeatingCharacter("abbcda"));
+//		LeftMostNonRepeatingCharacter lmns = new LeftMostNonRepeatingCharacter();
+//		System.out.println(lmns.findLeftMostNonRepeatingCharacter("hello"));
+		
+		ReverseWordsInAString rev = new ReverseWordsInAString();
+		System.out.println(rev.reverse("welcome to gfg"));
 		
 	}
 	
