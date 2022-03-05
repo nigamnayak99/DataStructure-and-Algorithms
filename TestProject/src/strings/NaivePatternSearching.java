@@ -16,9 +16,8 @@ public class NaivePatternSearching {
 					break;
 				j++;
 				if(k == m - 1)
-					answer.add(i);
+					answer.add(i);  
 			}
-			i = i + m - 2;
 			
 		}
 		return answer;

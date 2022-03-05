@@ -32,8 +32,11 @@ public class Input {
 //		ReverseWordsInAString rev = new ReverseWordsInAString();
 //		System.out.println(rev.reverse("its like it very much"));
 		
-		NaivePatternSearching nps = new NaivePatternSearching();
-		System.out.println(nps.findPatternPos("GEEKSFORGEEKS", "EKS"));
+//		NaivePatternSearching nps = new NaivePatternSearching();
+//		System.out.println(nps.findPatternPos("GEEKSFORGEEKS", "EKS"));
+		
+		RabinKrap rk = new RabinKrap();
+		System.out.println(rk.rabinKrapSearch("GEEKSFORGEEKS", "EEKS"));
 		
 	}
 	
