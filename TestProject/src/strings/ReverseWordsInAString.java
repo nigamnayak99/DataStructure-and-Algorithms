@@ -10,14 +10,14 @@ public class ReverseWordsInAString {
 		boolean flag = true ;
 		while(p >= 0) {
 			if(p == 0) {
+				System.out.println(ep+1);
 				reverse = reverse + s.substring(0,ep+1);
 				return reverse;
 			}
 			while(s.charAt(p) == 32) {
 				sp = p + 1;
 				reverse = reverse + s.substring(sp,ep+1)+" ";
-				ep = p -1;
-				p--;
+				ep = p - 1;
 			}
 			p--;
 		}

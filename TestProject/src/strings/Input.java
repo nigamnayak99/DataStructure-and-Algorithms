@@ -29,8 +29,11 @@ public class Input {
 //		LeftMostNonRepeatingCharacter lmns = new LeftMostNonRepeatingCharacter();
 //		System.out.println(lmns.findLeftMostNonRepeatingCharacter("hello"));
 		
-		ReverseWordsInAString rev = new ReverseWordsInAString();
-		System.out.println(rev.reverse("welcome to gfg"));
+//		ReverseWordsInAString rev = new ReverseWordsInAString();
+//		System.out.println(rev.reverse("its like it very much"));
+		
+		NaivePatternSearching nps = new NaivePatternSearching();
+		System.out.println(nps.findPatternPos("GEEKSFORGEEKS", "EKS"));
 		
 	}
 	
