@@ -38,12 +38,21 @@ public class Input {
 //		RabinKrap rk = new RabinKrap();
 //		System.out.println(rk.rabinKrapSearch("GEEKSFORGEEKS", "EEKS"));
         
-        System.out.println();
+
         BuildLPSNaive lpsn = new BuildLPSNaive();
         int[] l = lpsn.fillLPS("abacabad");
         for(int i=0;i<8;i++){
             System.out.print(l[i]+" ");
         } 
+        
+        System.out.println();
+        
+        BuildLPSEfficient lpse = new BuildLPSEfficient();
+        int[] e = lpse.findLPS("abacabad");
+        for(int i=0;i<8;i++){
+            System.out.print(e[i]+" ");
+        } 
+        
 
 	}
 	
