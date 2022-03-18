@@ -18,7 +18,7 @@ public class RabinKrap {
 			h = ( h * d) % q;
 		}
 		
-		
+
 		//compute hash function for first window of text and pattern 
 		int p = 0;
 		int t = 0;
@@ -42,6 +42,7 @@ public class RabinKrap {
 				if(flag)
 					hitPoints.add(i);
 			}
+			 
 			//compute hash for next window(ti + 1)
 			if(i < n -m) {
 				t = ((d * (t - text.charAt(i)* h) + text.charAt(i + m))) % q;
