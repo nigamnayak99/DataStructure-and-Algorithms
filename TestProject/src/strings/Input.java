@@ -53,8 +53,11 @@ public class Input {
 //            System.out.print(e[i]+" ");
 //        } 
         
-		KMP matcher = new KMP();
-		matcher.search("aaaaab", "aaaa");
+//		KMP matcher = new KMP();
+//		matcher.search("aaaaab", "aaaa");
+		
+		AnagramSearch ana = new AnagramSearch();
+		System.out.println(ana.anagramSearchEfficient("geeksforgeeks", "geek"));
 
 	}
 	
