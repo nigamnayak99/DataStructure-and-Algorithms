@@ -56,8 +56,11 @@ public class Input {
 //		KMP matcher = new KMP();
 //		matcher.search("aaaaab", "aaaa");
 		
-		AnagramSearch ana = new AnagramSearch();
-		System.out.println(ana.anagramSearchEfficient("geeksforgeeks", "geek"));
+//		AnagramSearch ana = new AnagramSearch();
+//		System.out.println(ana.anagramSearchEfficient("geeksforgeeks", "geek"));
+		
+		LexicoGraphicOrderOfAString lex = new LexicoGraphicOrderOfAString();
+		System.out.println(lex.findOrder("STRING"));
 
 	}
 	
