@@ -59,8 +59,11 @@ public class Input {
 //		AnagramSearch ana = new AnagramSearch();
 //		System.out.println(ana.anagramSearchEfficient("geeksforgeeks", "geek"));
 		
-		LexicoGraphicOrderOfAString lex = new LexicoGraphicOrderOfAString();
-		System.out.println(lex.findOrder("STRING"));
+//		LexicoGraphicOrderOfAString lex = new LexicoGraphicOrderOfAString();
+//		System.out.println(lex.findOrder("STRING"));
+		
+		LongestSubStringWithDistinctCharacters ls = new LongestSubStringWithDistinctCharacters();
+		System.out.println(ls.findLength("abcadbd"));
 
 	}
 	
