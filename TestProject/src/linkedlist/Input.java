@@ -43,9 +43,13 @@ public class Input {
 //		head = r.reverseLinkedListRecurssively(null,head);
 //		sl.printRecurssively(head);
 		
-		InsertAtAGivenPositionSLL ins = new InsertAtAGivenPositionSLL();
-		head = ins.insertNode(third, 8, 1);
-		sl.print(head);
+//		InsertAtAGivenPositionSLL ins = new InsertAtAGivenPositionSLL();
+//		head = ins.insertNode(third, 8, 1);
+//		sl.print(head);
+		
+//		InsertAtTheEndSLL ine = new InsertAtTheEndSLL();
+//		head = ine.insertAtTheEnd(null, 100);
+//		sl.print(head);
 		
 
 	}
